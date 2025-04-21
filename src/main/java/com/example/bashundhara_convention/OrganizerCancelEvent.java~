@@ -1,0 +1,21 @@
+package com.example.bashundhara_convention;
+
+public class OrganizerCancelEvent
+{
+    @javafx.fxml.FXML
+    private Label notificationlab;
+    @javafx.fxml.FXML
+    private TextField emailtextfield;
+    @javafx.fxml.FXML
+    private ComboBox eventtypecbox;
+    @javafx.fxml.FXML
+    private TextField logintextdield;
+
+    @javafx.fxml.FXML
+    public void initialize() {
+    }
+
+    @javafx.fxml.FXML
+    public void cancelbtn(ActionEvent actionEvent) {
+    }
+}

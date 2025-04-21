@@ -1,0 +1,23 @@
+package com.example.bashundhara_convention;
+
+public class OrganizerCreateEvent
+{
+    @javafx.fxml.FXML
+    private TextField Capacitytextfield;
+    @javafx.fxml.FXML
+    private Label confirmationlab;
+    @javafx.fxml.FXML
+    private TextField nametextfield;
+    @javafx.fxml.FXML
+    private TextField pricetextfield;
+    @javafx.fxml.FXML
+    private DatePicker Datepicker;
+
+    @javafx.fxml.FXML
+    public void initialize() {
+    }
+
+    @javafx.fxml.FXML
+    public void savebtn(ActionEvent actionEvent) {
+    }
+}

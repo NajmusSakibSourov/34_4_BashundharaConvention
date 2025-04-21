@@ -1,0 +1,22 @@
+package com.example.bashundhara_convention;
+
+public class GuestMakePayment
+{
+    @javafx.fxml.FXML
+    private ComboBox eventcbox;
+    @javafx.fxml.FXML
+    private ComboBox methodcbox;
+    @javafx.fxml.FXML
+    private Label receipt;
+    @javafx.fxml.FXML
+    private TextField details;
+
+    @javafx.fxml.FXML
+    public void initialize() {
+        
+    }
+
+    @javafx.fxml.FXML
+    public void paymentbtn(ActionEvent actionEvent) {
+    }
+}
