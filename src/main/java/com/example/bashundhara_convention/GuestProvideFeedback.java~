@@ -1,0 +1,19 @@
+package com.example.bashundhara_convention;
+
+public class GuestProvideFeedback
+{
+    @javafx.fxml.FXML
+    private Label feedbacktextarea;
+    @javafx.fxml.FXML
+    private Label eventnamecbox;
+    @javafx.fxml.FXML
+    private Label confirmationlab;
+
+    @javafx.fxml.FXML
+    public void initialize() {
+    }
+
+    @javafx.fxml.FXML
+    public void submitbtn(ActionEvent actionEvent) {
+    }
+}

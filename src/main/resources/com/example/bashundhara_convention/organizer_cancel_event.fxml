@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bashundhara_convention.OrganizerCancelEvent">
+   <children>
+      <Label layoutX="96.0" layoutY="83.0" text="Email" />
+      <Label layoutX="96.0" layoutY="128.0" text="Log in" />
+      <Label layoutX="96.0" layoutY="175.0" text="Event" />
+      <Label fx:id="notificationlab" layoutX="224.0" layoutY="246.0" text="Notification sent" />
+      <Button layoutX="224.0" layoutY="210.0" mnemonicParsing="false" onAction="#cancelbtn" text="Click for cancel" />
+      <TextField fx:id="emailtextfield" layoutX="163.0" layoutY="79.0" />
+      <TextField fx:id="logintextdield" layoutX="164.0" layoutY="124.0" />
+      <ComboBox fx:id="eventtypecbox" layoutX="164.0" layoutY="171.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

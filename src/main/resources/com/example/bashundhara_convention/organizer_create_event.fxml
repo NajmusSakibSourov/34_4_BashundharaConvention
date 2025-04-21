@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bashundhara_convention.OrganizerCreateEvent">
+   <children>
+      <Label layoutX="104.0" layoutY="84.0" text="Name" />
+      <Label layoutX="104.0" layoutY="134.0" text="Date" />
+      <Label layoutX="104.0" layoutY="183.0" text="Price" />
+      <Label layoutX="104.0" layoutY="229.0" text="Capacity" />
+      <Label fx:id="confirmationlab" layoutX="213.0" layoutY="299.0" text="Confirmation" />
+      <Button layoutX="187.0" layoutY="263.0" mnemonicParsing="false" onAction="#savebtn" text="Click for Save" />
+      <TextField fx:id="nametextfield" layoutX="226.0" layoutY="80.0" />
+      <TextField fx:id="pricetextfield" layoutX="231.0" layoutY="188.0" />
+      <TextField fx:id="Capacitytextfield" layoutX="232.0" layoutY="225.0" />
+      <DatePicker fx:id="Datepicker" layoutX="214.0" layoutY="130.0" />
+   </children>
+</AnchorPane>
